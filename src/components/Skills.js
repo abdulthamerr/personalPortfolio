@@ -7,7 +7,7 @@ import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
-export const Skill = () => {
+export const Skills = () => {
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
@@ -49,16 +49,12 @@ export const Skill = () => {
                                     <img src={meter3} alt="Image" />
                                     <h5>Logo Design</h5>
                                 </div>
-                                <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5>Web Development</h5>
-                                </div>
+                                
                             </Carousel>
                         </div>
                     </div>
                 </div>
             </div>
-            <img className="background-image-left" src={colorSharp} alt="Image" />
         </section>
       )
 }
